@@ -1,0 +1,67 @@
+var content = [
+    {
+        title: "Creative Cloud",
+        promoWord: "Adobe 创意应用软件(包括Photoshop、Illustrator和InDesign)。可以自行决定其部署方式和时间。",
+        icon: "fa-cloud",
+        bgcolor: "#e87381",
+        homesrc: "https://helpx.adobe.com/cn/download-install/kb/creative-cloud-desktop-app-download.html",
+        nohome: "",
+        locaksrc: "https://www.aliyundrive.com/s/SqkfmJSfRt5",
+        yunkey: "",
+        noyun: "no",
+        cracksrc: "javascript:;",
+        nocrack: "no"
+    },
+    {
+        title: "V2rayU",
+        promoWord: "基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。",
+        icon: "fa-rocket",
+        bgcolor: "#86c1fa",
+        homesrc: "https://github.com/yanue/V2rayU/releases",
+        nohome: "",
+        locaksrc: "https://pan.baidu.com/s/1GSbGCoVduiRyGdguefBR2Q",
+        yunkey: "密码: cu2h",
+        noyun: "no",
+        cracksrc: "javascript:;",
+        nocrack: "no"
+    },
+    {
+        title: "图压",
+        promoWord: "简单易用的图片压缩软件",
+        icon: "fa-file-image",
+        bgcolor: "#828e9e",
+        homesrc: "https://tuya.xinxiao.tech/",
+        nohome: "",
+        locaksrc: "云盘分享链接",
+        yunkey: "云盘链接密码",
+        noyun: "no",
+        cracksrc: "是否有破解版本",
+        nocrack: "no"
+    },
+    {
+        title: "软件名称",
+        promoWord: "软件简介",
+        icon: "fa-cloud",
+        bgcolor: "#9bcd62",
+        homesrc: "官方链接",
+        nohome: "no",
+        locaksrc: "云盘分享链接",
+        yunkey: "云盘链接密码",
+        noyun: "no",
+        cracksrc: "是否有破解版本",
+        nocrack: "no"
+    },
+    {
+        title: "软件名称",
+        promoWord: "软件简介",
+        icon: "fa-cloud",
+        bgcolor: "#968998",
+        homesrc: "官方链接",
+        nohome: "no",
+        locaksrc: "云盘分享链接",
+        yunkey: "云盘链接密码",
+        noyun: "no",
+        cracksrc: "是否有破解版本",
+        nocrack: "no"
+    },
+];
