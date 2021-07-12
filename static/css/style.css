@@ -101,3 +101,25 @@ a {
 .col-pc-12 ul li .btnBox a.no i {
     cursor: not-allowed;
 }
+ /* 说明部分 */
+ .content>p {
+    color: #000;
+    /* background: red; */
+    font-family: serif;
+    border-left: 5px solid #000;
+    padding-left: 10px;
+    margin: 10px 0;
+    background: #ccc;
+    height: 40px;
+    line-height: 40px;
+}
+
+.content>p span {
+    margin-left: 10px;
+}
+
+/* 底部 */
+footer {position: fixed;bottom: 0;left: 0;background: #444444;display: block;width: 100%;height: 50px;line-height: 50px;text-align: center;color: #fff;}
+footer a {color: #fff;}
+/* 浏览统计 */
+#cnzz_stat_icon_1279211617{width: 0;height: 0;overflow: hidden;opacity: 0;}
