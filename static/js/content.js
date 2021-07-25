@@ -10,7 +10,8 @@ var content = [
         yunkey: "",
         noyun: "no",
         cracksrc: "javascript:;",
-        nocrack: "no"
+        nocrack: "no",
+        other1: "https://starlink.to/#/login",
     },
     {
         title: "V2rayU",
