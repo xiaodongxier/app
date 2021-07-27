@@ -76,6 +76,7 @@
     width: 1324px;
     /* background: #ccc; */
     margin: 0 auto 100px auto;
+    min-height: 100vh;
 }
 
 .col-pc-12.content>ul {
