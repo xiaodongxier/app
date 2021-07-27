@@ -6,6 +6,44 @@
     font-size: 60px;
 }
 
+.header .nav,
+.header .slider {
+    position: relative;
+    z-index: 1;
+    background: #1e1f26;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.header h1 {
+    height: 90px;
+    color: #03dac6;
+    transition: all 0.3s ease;
+}
+
+.header h1:hover {
+    transform: translate3d(0, -10px, 22px);
+    color: #ff0266;
+}
+.header .background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header a {
+    color: #fff;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
 
 /* tab筛选 */
 .btn_select {
