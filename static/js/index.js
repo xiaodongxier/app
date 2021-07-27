@@ -181,6 +181,9 @@ $(function () {
     function random(min, max) {
         return Math.floor(Math.random() * (max - min)) + min;
     }
+    $(".header").css({
+        "background": bgColor[random(0, bgColor.length)]
+    })
     for (var i = 0; i < applist.length; i++) {
         applist.eq(i).css({
             "background": bgColor[random(0, bgColor.length)]
