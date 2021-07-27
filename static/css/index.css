@@ -103,6 +103,8 @@
 
 .col-pc-12.content>ul>li .app_desc a .app_desc_con {
     padding: 0 10px;
+    color: #4a4a4a;
+    font-size: 14px;
 }
 
 /* ----------------------下载部分-------------------- */
