@@ -1,3 +1,15 @@
+/* tab筛选 */
+
+.btn_select ul{
+    overflow: hidden;
+}
+
+.btn_select ul li {
+    float: left;
+}
+
+
+
 /* app布局部分 */
 
 .col-pc-12.content {
@@ -162,3 +174,5 @@ footer {
 footer a {
     color: #fff;
 }
+
+

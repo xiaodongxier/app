@@ -186,4 +186,13 @@ $(function () {
             "background": bgColor[random(0, bgColor.length)]
         })
     }
+    $(function() {
+        // $(".btn_select ul li").click(function() {
+        $(".btn_select form label").click(function() {
+            $($(this).attr("data-app")).show().siblings("").hide();
+            $($(this).attr("data-app")).show();
+            console.clear()
+            // console.log($($(this).attr("data-app")).show());
+        })
+    })
 })
