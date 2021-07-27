@@ -1,6 +1,6 @@
 <!--
  * @Date: 2021-07-12 10:25:07
- * @LastEditTime: 2021-07-12 16:44:21
+ * @LastEditTime: 2021-07-26 11:19:20
  * @Author: WangYongJie
  * @Work-email: wangyongjie2@gome.com.cn
  * @Private-email: admin@xiaodongxier.com
@@ -14,72 +14,870 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小东西儿 - 王永杰的工具箱</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./static/css/style.css">
-    <link rel="stylesheet" href="./static/css/all.css">
+    <link rel="stylesheet" href="./static/css/format.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./static/js/content.js"></script>
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?8156166a2314330b5bcdf57645ca9b6e";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-    <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279211617'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279211617%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+    <script src="./static/js/index.js"></script>
 </head>
+
 <body>
     <header class="header col-pc-12">
         head部分
     </header>
     <div class="content col-pc-12">
-        <h2>软件程序类</h2>
-        <p>说明:
-            <span><i class="fas fa-home"></i></span>:官网
-            <span><i class="fas fa-cloud-download-alt"></i></span>:本地下载
-            <span><i class="fas fa-user-secret"></i></span>:破解版下载
-        </p>
-        <ul class="app"></ul>
-        <h2>网站导航类</h2>
-        <ul class="nav">
-            <li style="background: #0b2d64;">
-                <span class="image">
-                    <i class="fas fa-adobe"></i>
-                </span>
-                <h3>Creative Cloud</h3>
-                <p>描述描述描述描述描述描述描述描述描述描述描述描述</p>
-                <div class="btnBox">
-                    <a href="" target="_blank" class="btn btn1" title="官网"><i class="fas fa-home"></i></a>
-                    <a href="" target="_blank" class="btn btn3" alt="本地"><i class="fas fa-cloud-download-alt"></i></a>
-                    <a href="" target="_blank" class="btn btn2" alt="破解"><i class="fas fa-user-secret"></i></a>
+        <div class="btn_select">
+            <ul>
+                <li data-app=".app li" class="mymac">全部</li>
+                <li data-app=".app .mymac" class="mymac">装机必备</li>
+                <li data-app=".app .free" class="myfree">免费</li>
+                <li data-app=".app .open" class="myopen">开源</li>
+                <li data-app=".app .crack" class="mycrack">破解</li>
+            </ul>
+        </div>
+        <ul class="app">
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/微信.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">微信</div>
+                        <div class="app_desc_con txt3">
+                            一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://weixin.qq.com"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
                 </div>
             </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/CreativeCloudApp.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Creative Cloud</div>
+                        <div class="app_desc_con txt3">
+                            Adobe 创意应用软件(包括Photoshop、Illustrator和InDesign)。可以自行决定其部署方式和时间。
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://helpx.adobe.com/cn/download-install/kb/creative-cloud-desktop-app-download.html"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="open mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/V2rayU.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">V2rayU</div>
+                        <div class="app_desc_con txt3">
+                            基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等。
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://github.com/yanue/V2rayU/releases"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li><a href="https://starlink.to/#/login" title="StarLink星链"><i class="fa fa-tags"></i> 关联</a></li>
+                        <li><a href="https://bulink.xyz" title="闪烁科技 网络加速 永久免费网络加速服务 免费资源请勿用于非法用途"><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/tuya.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">图压</div>
+                        <div class="app_desc_con txt3">
+                            简单易用的图片压缩软件,批量将图片压缩到指定尺寸
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/XMind.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">XMind</div>
+                        <div class="app_desc_con txt3">
+                            XMind 是一个全功能的思维导图和头脑风暴软件，为激发灵感和创意而生。作为一款有效提升工作和生活效率的生产力工具，受到全球百千万用户的青睐。
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://www.xmind.cn"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="open mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/uPic.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">uPic</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/TripMode.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">TripMode</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/MWeb.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">MWeb</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/ParagonNTFS.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Paragon NTFS for Mac 15</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="open mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Shadowsocks.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Shadowsocks</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Snipaste.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Snipaste</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/SwitchHosts.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">SwitchHosts</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Magnet.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Magnet</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href=""><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/MacZip.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">MacZip</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Eagle.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Eagle</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Bob.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Bob</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/app_cleaner_pro_icon.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">App Cleaner & Uninstaller</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/腾讯电脑管家.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">腾讯电脑管家</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/超级右键专业版.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">超级右键 专业版</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Paste.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Paste</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/macOS小助手.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">macOS 小助手</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/截图.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">截图</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="charge mymac crack">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Parallels.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Parallels Desktop</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/GitHub.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">GitHub Desktop</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Telegram.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Telegram</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/kodcloud.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">kodcloud</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Xcode.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Xcode</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/沙漏验机.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">沙漏验机</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <li class="free mymac">
+                <div class="app_desc">
+                    <a href="javascript:;">
+                        <div class="app_logo">
+                            <div class="app_logo_img">
+                                <img src="./static/image/logo/Image2Icon.png" alt="">
+                            </div>
+                            <div class="app_logo_v">版本号</div>
+                        </div>
+                        <div class="app_name txt1">Image2Icon</div>
+                        <div class="app_desc_con txt3">
+                            简介部分内容
+                        </div>
+                    </a>
+                </div>
+                <div class="app_down">
+                    <ol>
+                        <li><a href="https://tuya.xinxiao.tech"><i class="fa fa-home"></i> 官网</a></li>
+                        <li><a href=""><i class="fa fa-apple"></i> 商店</a></li>
+                        <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+                        <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                        <li class="noUrl"><a href="" title=""><i class="fa fa-tags"></i> 关联</a></li>
+                    </ol>
+                </div>
+            </li>
+
+
+
+
+
+
+
+
+
+
         </ul>
     </div>
     <footer class="footer">
         <a href="http://xiaodongxier.com" target="_blank">小东西儿</a> ｜ 更新于2021年07月12日 ｜ <a href="mailto:admin@xiaodongxier.com?subject=关于常用软件导航页面问题的反馈">联系/反馈</a>
     </footer>
     <script>
-        var listBox = ""
-        for (var i = 0; i < content.length; i++) {
-            listBox += `
-            <li style="background:${content[i].bgcolor}">
-                <span class="image">
-                    <i class="fas ${content[i].icon}"></i>
-                </span>
-                <h3>${content[i].title}</h3>
-                <p>${content[i].promoWord}</p>
-                <div class="btnBox">
-                    <a href="${content[i].homesrc}" target="_blank" class="btn btn1 ${content[i].nohome}" title="官网"><i class="fas fa-home"></i></a>
-                    <a href="${content[i].locaksrc}" target="_blank" class="btn btn3 ${content[i].nocrack}" title="${content[i].yunkey}" alt="本地"><i class="fas fa-cloud-download-alt"></i></a>
-                    <a href="${content[i].cracksrc}" target="_blank" class="btn btn2 ${content[i].nocrack}" alt="破解"><i class="fas fa-user-secret"></i></a>
-                    <a href="${content[i].other1}" target="_blank" class="btn btn2 ${content[i].other1}" alt="关联"><i class="fas plane-departure"></i></a>
-                </div>
-            </li>
-            `;
-        }
-        $("ul.app").html(listBox)
+        $(function() {
+            $(".btn_select ul li").click(function() {
+                $($(this).attr("data-app")).show().siblings("").hide();
+                console.log($($(this).attr("data-app")).show());
+            })
+        })
     </script>
 </body>
+
 </html>
+
+
+
+
+
+
+<!-- 
+------------------------------------------- 免费free  收费 charge  破解 crack  开源 open ---------------------------------------
+<li class="free charge crack open">
+    <div class="app_desc">
+        <a href="javascript:;">
+            <div class="app_logo">
+                <div class="app_logo_img">
+                    <img src="./static/image/test.png" alt="">
+                </div>
+-------------------------------------------------- 版本 -----------------------------------------------------
+                <div class="app_logo_v">v2.22.22</div>
+            </div>
+            <div class="app_name txt1">微信</div>
+            <div class="app_desc_con txt3">
+                微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信微信
+            </div>
+        </a>
+    </div>
+    <div class="app_down">
+        <ol>
+            <li><a href="https://weixin.qq.com"><i class="fa fa-home"></i> 官网</a></li>
+            <li><a href="https://apps.apple.com/cn/app/id836500024"><i class="fa fa-apple"></i> 商店</a></li>
+            <li><a href=""><i class="fa fa-cloud"></i> 网盘</a></li>
+            <li class="noUrl"><a href=""><i class="fa fa-key"></i> 破解</a></li>
+            <li class="noUrl"><a href=""><i class="fa fa-tags"></i> 关联</a></li>
+            <li class="noUrl"><a href=""><i class="fa fa-tags"></i> 关联</a></li>
+        </ol>
+    </div>
+</li> 
+-->
