@@ -79,7 +79,7 @@
 
 .col-pc-12.content>ul>li.open::before {
     content: "开源";
-    background: pink;
+    background: #32343e;
 }
 
 .col-pc-12.content>ul>li:nth-child(4n) {
@@ -139,7 +139,8 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 80px;
+    /* width: 80px; */
+    width: 95px;
     height: 100%;
 }
 
