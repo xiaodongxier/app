@@ -2,7 +2,7 @@
 .header {
     height: 300px;
     text-align: center;
-    line-height: 300px;
+    /* line-height: 300px; */
     font-size: 60px;
 }
 
@@ -20,9 +20,10 @@
 }
 
 .header h1 {
-    height: 90px;
+    /* height: 90px; */
     color: #03dac6;
     transition: all 0.3s ease;
+    font-size: 70px;
 }
 
 .header h1:hover {
