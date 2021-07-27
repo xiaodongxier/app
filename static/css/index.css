@@ -7,11 +7,11 @@
     margin: 0 auto 100px auto;
 }
 
-.col-pc-12.content > ul{
+.col-pc-12.content>ul {
     overflow: hidden;
 }
 
-.col-pc-12.content > ul > li {
+.col-pc-12.content>ul>li {
     width: 325px;
     height: 200px;
     border-radius: 10px;
@@ -26,7 +26,7 @@
     border: 1px solid #000;
 }
 
-.col-pc-12.content > ul > li::before {
+.col-pc-12.content>ul>li::before {
     font-size: 16px;
     position: absolute;
     top: 5px;
@@ -36,12 +36,12 @@
     line-height: 30px;
 }
 
-.col-pc-12.content > ul > li.free::before {
+.col-pc-12.content>ul>li.free::before {
     content: "免费";
     background: #66cf74;
 }
 
-.col-pc-12.content > ul > li.charge::before {
+.col-pc-12.content>ul>li.charge::before {
     content: "收费";
     background: red;
 }
@@ -51,22 +51,21 @@
     background: blue;
 } */
 
-.col-pc-12.content > ul > li.open::before {
+.col-pc-12.content>ul>li.open::before {
     content: "开源";
     background: pink;
 }
 
-
-.col-pc-12.content > ul > li:nth-child(4n) {
+.col-pc-12.content>ul>li:nth-child(4n) {
     /* margin-right: 0px !important; */
 }
 
-.col-pc-12.content > ul > li .app_desc {
+.col-pc-12.content>ul>li .app_desc {
     width: 240px;
     height: 100%;
 }
 
-.col-pc-12.content > ul > li .app_desc a {
+.col-pc-12.content>ul>li .app_desc a {
     display: block;
     width: 100%;
     height: 100%;
@@ -75,20 +74,20 @@
 
 /* logo */
 
-.col-pc-12.content > ul > li .app_desc a .app_logo {}
+.col-pc-12.content>ul>li .app_desc a .app_logo {}
 
-.col-pc-12.content > ul > li .app_desc a .app_logo .app_logo_img {
+.col-pc-12.content>ul>li .app_desc a .app_logo .app_logo_img {
     width: 70px;
     height: 70px;
     margin: 10px auto;
     background-image: url(https://cdn.jsdelivr.net/gh/xiaodongxier/static@main/loading/1.gif);
-    background-size: 90%;
+    background-size: 70%;
     background-position: center;
     background-color: transparent;
     background-repeat: no-repeat;
 }
 
-.col-pc-12.content > ul > li .app_desc a .app_logo .app_logo_v {
+.col-pc-12.content>ul>li .app_desc a .app_logo .app_logo_v {
     font-size: 12px;
     color: #808080;
     display: none;
@@ -96,18 +95,18 @@
 
 /* name */
 
-.col-pc-12.content > ul > li .app_desc a .app_name {
+.col-pc-12.content>ul>li .app_desc a .app_name {
     font-size: 20px;
 }
 
 /* 简介 */
 
-.col-pc-12.content > ul > li .app_desc a .app_desc_con {
+.col-pc-12.content>ul>li .app_desc a .app_desc_con {
     padding: 0 10px;
 }
 
-
 /* ----------------------下载部分-------------------- */
+
 .app_down {
     position: absolute;
     right: 0;
@@ -116,9 +115,7 @@
     height: 100%;
 }
 
-.app_down ol {
-
-}
+.app_down ol {}
 
 .app_down ol li {
     border: 1px solid #000;
@@ -137,18 +134,12 @@
     pointer-events: none;
 }
 
-
-
 .app_down ol li a {
     display: block;
     width: 100%;
     height: 100%;
     color: #000;
 }
-
-
-
-
 
 /* 底部 */
 
