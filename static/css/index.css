@@ -235,8 +235,14 @@ footer a {
     color: #fff;
 }
 
+/* 访问统计 */
 
-
+#cnzz_stat_icon_1279211617 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
 
 
 /* 网站频繁更新期间，仅提供UI展示 */
