@@ -207,7 +207,7 @@ $(function () {
 
 
     // 网站频繁更新期间，仅提供UI展示
-    alert("网站频繁更新期间，暂时仅提供UI展示。")
+    alert("网站频繁优化更新期间，暂停访问。")
     if(window.location.search == "?wangyongjie"){
         $(".app").removeClass("noClick")
     }
