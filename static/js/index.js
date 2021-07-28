@@ -204,4 +204,11 @@ $(function () {
             "background": "none"
         })
     },10000)
+
+
+    // 网站频繁更新期间，仅提供UI展示
+    alert("网站频繁更新期间，暂时仅提供UI展示。")
+    if(window.location.search == "?wangyongjie"){
+        $(".app").removeClass("noClick")
+    }
 })
