@@ -2,4 +2,5 @@
 
 常用软件导航
 
-![v3.0.0](./static/image/v3.0.0.jpg)
+![v4.0.0](./static/image/v4.0.0-1.jpg)
+![v4.0.0](./static/image/v4.0.0-2.jpg)
