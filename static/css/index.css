@@ -254,3 +254,30 @@ footer a {
 .app.noClick a {
     pointer-events: none;
 }
+
+
+
+
+
+
+
+/*  */
+@media only screen and (max-width: 500px) {
+    .col-pc-12.content {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .col-pc-12.content>ul>li {
+        width: 100%;
+    }
+    
+    footer {
+        width: 100%;
+    }
+
+    .btn_select form label {
+        font-size: 12px;
+    }
+}
