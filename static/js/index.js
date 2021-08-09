@@ -199,11 +199,11 @@ $(function () {
             // console.log($($(this).attr("data-app")).show());
         })
     })
-    setTimeout(function(){
-        $(".col-pc-12.content>ul>li .app_desc a .app_logo .app_logo_img").css({
-            "background": "none"
-        })
-    },10000)
+    // setTimeout(function(){
+    //     $(".col-pc-12.content>ul>li .app_desc a .app_logo .app_logo_img").css({
+    //         "background": "none"
+    //     })
+    // },10000)
 
 
     // 网站频繁更新期间，仅提供UI展示
