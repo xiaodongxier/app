@@ -56,6 +56,10 @@
     /* background: red; */
     height: 40px;
     line-height: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #fff;
 }
 
 .btn_select form label{
